@@ -1,0 +1,84 @@
+<html>
+    <head>
+    <title> Weather Forecast </title>
+    <link href="./html.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    
+
+    </head>
+    <body class="body1">
+    <div>
+      <div>
+        <header class="p-3 text-bg-dark">
+            <div class="container">
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                  <h3 class="textwhite" > Weather Forecast </h3>
+                </a>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div>
+          <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="C:\Users\user\Desktop\leqcia11\download.jpg" alt="" width="250 height="150">
+            <h1 class="display-5 fw-bold"> </h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Get information about your city weather Forecast And Time</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <input type="text" id="typeCity">
+                <button  onclick="getWeather(),myFunction()" type="button" class="btn btn-outline-secondary btn-lg px-4" > Click </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <main>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Temperature</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title" id="weathetDetailsInfo" ></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Humidity</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title" id="weatherdetailsInfo1" ></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Date & Time</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title" id="timeResultDetails"  ></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>  
+
+
+        
+        
+
+    </body>
+    <script src="./html.js"></script> 
+    
+</html>

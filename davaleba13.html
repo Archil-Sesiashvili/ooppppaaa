@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>
+        Doge Finder
+    </title>
+    <link rel="stylesheet" href="./davaleba.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+        
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Doge Finder</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="https://www.mohenesh.com/wp-content/uploads/2021/11/Doge-meme-2.webp"
+            alt="" width="350" height="250">
+        <h1 class="display-5 fw-bold">Doge Hero</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Get information about your dog</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <input type="text" id="typeBreed">
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4" id="submit" onclick="dogSearch()">Get result</button>
+            </div>
+
+            <div class="title">
+                <h1 id = "dogName"> </h1>
+                <img id = "dogImg">
+        <table class="title">
+            <thead>
+                <th >
+                    <td></td>
+                    <td></td>
+                </th>
+            </thead>
+            <tbody id="dogInfo">
+            </tbody>
+        </table>
+            </div>
+        </div>
+    </div>
+ <script src="./davaleba.js"></script>
+</body>
+
+</html>

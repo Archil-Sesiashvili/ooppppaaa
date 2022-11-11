@@ -1,0 +1,10 @@
+.body1 {
+    background-image: url(./cloud.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body2 {
+    background-image: url(./rain.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
